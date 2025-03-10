@@ -22,6 +22,8 @@ body {
     flex-direction: row;
     justify-content: space-between;
     margin-top: 40px;
+    position: relative;
+    z-index: 1;
 }
 .header1_1 {
     width: 132px;
@@ -161,6 +163,18 @@ body {
     width: 486.95px;
     height: 510.95px;
     margin-top: 67px;
+    position: relative;
+    z-index: 1;
+}
+.header2_3 {
+    width: 296.2497205664077px;
+    height: 1092.773175744448px;
+    transform: rotate(35deg);
+    background-color: #0F0F0F;
+    /* background-clip: content-box; */
+    position: absolute;
+    top: -114.45px;
+    left: 1168.9px;
 }
 
 /*                              Второй header */
@@ -593,6 +607,7 @@ body {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    border: 2px dashed #9D9D9D;
 }
 .main1_1 {
     width: 1198px;
@@ -1026,6 +1041,7 @@ body {
     line-height: 166%;
     letter-spacing: 0%;
     margin-right: 129px;
+    color: #D0D0D0;
 }
 .main2_6_1_2_3 {
     width: 334px;
@@ -1047,6 +1063,7 @@ body {
     line-height: 166%;
     letter-spacing: 0%;
     margin-right: 129px;
+    color: #D0D0D0;
 }
 
                             /* footer */
@@ -1091,6 +1108,7 @@ body {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    margin-top: 60px;
 }
 .footer1_2_1 img {
     width: 68.73490905761719px;
@@ -1099,11 +1117,16 @@ body {
 .footer1_2_1 p {
     width: 104.7272720336914px;
     height: 36px;
+    display: flex;
+    justify-content: center;
     font-family: 'Days';
     font-weight: 400;
-    font-size: 27.82px;
+    font-size: 27px;
     line-height: 100%;
     letter-spacing: 0%;
+    color: #E6E6E6;
+    margin-top: 14px;
+
 }
 .footer1_2_2 {
     width: 120.00044250488281px;
@@ -1111,6 +1134,7 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    margin-top: 60px;
 }
 .footer1_2_2 img {
     width: 24px;
